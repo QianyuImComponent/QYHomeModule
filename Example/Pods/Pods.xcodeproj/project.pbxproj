@@ -140,8 +140,8 @@
 		028AA35A44AC85C72311543A64BEC49F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		08EAA59EF5CF7C84816877CF1A9BF1F2 /* QYUtilCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QYUtilCore-Info.plist"; sourceTree = "<group>"; };
 		0AB813F26271577A3571DFA3167D9FAA /* HBDNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBDNavigationController.h; path = HBDNavigationBar/Classes/HBDNavigationController.h; sourceTree = "<group>"; };
-		0DB86A432FE883BED763C48C5C2A1D3C /* QYUtilCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QYUtilCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		102639B2E2D0769D869493CA07BD56F0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0DB86A432FE883BED763C48C5C2A1D3C /* QYUtilCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QYUtilCore.framework; path = QYUtilCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		102639B2E2D0769D869493CA07BD56F0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		136C48C1E81C945BA92A3E37919462D0 /* CALayerExetnsions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CALayerExetnsions.swift; path = QYUtilCore/Classes/Extensions/CALayerExetnsions.swift; sourceTree = "<group>"; };
 		14AD9F0DD3F4C39665279A1EF1E34AFE /* UINavigation-SXFixSpace-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigation-SXFixSpace-prefix.pch"; sourceTree = "<group>"; };
 		1B84E39204E0C0FEECAD3AE082F9644D /* UIViewController+TopMostViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+TopMostViewController.swift"; path = "Sources/URLNavigator/UIViewController+TopMostViewController.swift"; sourceTree = "<group>"; };
@@ -164,25 +164,25 @@
 		394FBDAC6F1111012D591CD927D79643 /* HBDNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBDNavigationController.m; path = HBDNavigationBar/Classes/HBDNavigationController.m; sourceTree = "<group>"; };
 		3C992A5CA66B1725D9072E150D2806E1 /* URLConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLConvertible.swift; path = Sources/URLMatcher/URLConvertible.swift; sourceTree = "<group>"; };
 		40341A167C32CF0DC0D5ED6BDAED7DFC /* QYHomeModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QYHomeModule.modulemap; sourceTree = "<group>"; };
-		4173C63C9C2260C59FD9E0AD257A1200 /* URLNavigator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URLNavigator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4173C63C9C2260C59FD9E0AD257A1200 /* URLNavigator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = URLNavigator.framework; path = URLNavigator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42A8AD4B6AE0BAEB073548B6A753DFB2 /* QYRoute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QYRoute.swift; path = QYUtilCore/Classes/Route/QYRoute.swift; sourceTree = "<group>"; };
 		43DED60CD804B8BB2C9EDE06618812DD /* Pods-QYHomeModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QYHomeModule_Example.modulemap"; sourceTree = "<group>"; };
 		455EC9CBD196E270C1C17BB8956CAB49 /* CGRectExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectExtensions.swift; path = QYUtilCore/Classes/Extensions/CGRectExtensions.swift; sourceTree = "<group>"; };
 		4FFC6D67A869EC6C12B3DDBEFB24DC41 /* UIViewControllerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewControllerType.swift; path = Sources/URLNavigator/UIViewControllerType.swift; sourceTree = "<group>"; };
-		517AA7388076DAD253C4C29D63A423F4 /* QYHomeModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QYHomeModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		517AA7388076DAD253C4C29D63A423F4 /* QYHomeModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QYHomeModule.framework; path = QYHomeModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5198C3727BD38590800CD2A52C95ED0C /* URLNavigator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "URLNavigator-umbrella.h"; sourceTree = "<group>"; };
 		5341100EAD6AA2D542870E7048A55BFD /* QYUtilCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QYUtilCore.xcconfig; sourceTree = "<group>"; };
 		56B764CB6B22E335DE38682C55B84AFF /* HBDNavigationBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBDNavigationBar-prefix.pch"; sourceTree = "<group>"; };
 		5885F0E5289E8386B87326318FD1EF9F /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = QYUtilCore/Classes/Extensions/StringExtensions.swift; sourceTree = "<group>"; };
-		5B142280BFDDC807BA35473D526D10A5 /* Pods_QYHomeModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYHomeModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B142280BFDDC807BA35473D526D10A5 /* Pods_QYHomeModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QYHomeModule_Example.framework; path = "Pods-QYHomeModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61A3CFE1D46A148174550332DDC12AC0 /* UIViewController+HBD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+HBD.h"; path = "HBDNavigationBar/Classes/UIViewController+HBD.h"; sourceTree = "<group>"; };
-		62EF8482CFC298D7323D5DE323181290 /* UINavigation_SXFixSpace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UINavigation_SXFixSpace.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		63F880624600BB97EC8C131D6AA0AA1B /* QYHomeModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QYHomeModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		62EF8482CFC298D7323D5DE323181290 /* UINavigation_SXFixSpace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UINavigation_SXFixSpace.framework; path = "UINavigation-SXFixSpace.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F880624600BB97EC8C131D6AA0AA1B /* QYHomeModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QYHomeModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6427E46E609DA5E660991DBE482AB2FD /* HBDNavigationBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HBDNavigationBar-Info.plist"; sourceTree = "<group>"; };
 		682B632D681987B0008A73D3004D37EF /* QYUtilCore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QYUtilCore.swift; path = QYUtilCore/Classes/Extensions/QYUtilCore.swift; sourceTree = "<group>"; };
 		6940833ABACF0524991BA9A60A6EF905 /* CGSizeExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGSizeExtensions.swift; path = QYUtilCore/Classes/Extensions/CGSizeExtensions.swift; sourceTree = "<group>"; };
 		69FEFEF09746A422BE74226A194AAAAD /* UINavigation-SXFixSpace-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigation-SXFixSpace-umbrella.h"; sourceTree = "<group>"; };
-		6BAD5D19DBC270F27D6163BD95829200 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6BAD5D19DBC270F27D6163BD95829200 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		6DE1097099AB342600171ACE6E8204C2 /* URLNavigator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URLNavigator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74583250B5C9985BF13EF048652D8E30 /* UINavigation-SXFixSpace-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigation-SXFixSpace-dummy.m"; sourceTree = "<group>"; };
 		745CFEDF55A1649891BF0BC659D44C5D /* QYHomeViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QYHomeViewModel.swift; sourceTree = "<group>"; };
@@ -196,7 +196,7 @@
 		95C300FE83069C36C6FEB6E17D2B8D81 /* UINavigationSXFixSpace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UINavigationSXFixSpace.m; path = "UINavigation-SXFixSpace/UINavigationSXFixSpace.m"; sourceTree = "<group>"; };
 		97832E7C43BB4296CC5C2FD804C6FB7C /* QYHomeModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QYHomeModule.xcconfig; sourceTree = "<group>"; };
 		9CBF80014C880D46F440A62FCF297E67 /* UINavigation-SXFixSpace-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UINavigation-SXFixSpace-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A21BE5B8E18D4CC047799F1031DB7BED /* HBDNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBDNavigationBar.m; path = HBDNavigationBar/Classes/HBDNavigationBar.m; sourceTree = "<group>"; };
 		A33AF394EAD18CF968E673FD518B989E /* URLMatchResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLMatchResult.swift; path = Sources/URLMatcher/URLMatchResult.swift; sourceTree = "<group>"; };
 		A92C9D524643708B2DE3EF8DF7D77C63 /* HBDNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBDNavigationBar.h; path = HBDNavigationBar/Classes/HBDNavigationBar.h; sourceTree = "<group>"; };
@@ -226,7 +226,7 @@
 		FABF8EEAC128EEC10232F8736E685F3D /* UINavigation-SXFixSpace.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UINavigation-SXFixSpace.xcconfig"; sourceTree = "<group>"; };
 		FB1531F6728F3BC777181F6ED2085BFD /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = QYUtilCore/Classes/Extensions/UIViewExtensions.swift; sourceTree = "<group>"; };
 		FC3C4DC5C1CF602D52DD9BB89D11EFE2 /* QYUtilCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QYUtilCore.modulemap; sourceTree = "<group>"; };
-		FC673151C5497BC8027FF15C04A83C54 /* HBDNavigationBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HBDNavigationBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC673151C5497BC8027FF15C04A83C54 /* HBDNavigationBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HBDNavigationBar.framework; path = HBDNavigationBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -341,6 +341,7 @@
 				878B3B17C4A6F1C53F3A1EBB6C9F3C5A /* UIViewController+HBD.m */,
 				4F36320D19479427CB944525C554237E /* Support Files */,
 			);
+			name = HBDNavigationBar;
 			path = HBDNavigationBar;
 			sourceTree = "<group>";
 		};
@@ -413,6 +414,7 @@
 				95C300FE83069C36C6FEB6E17D2B8D81 /* UINavigationSXFixSpace.m */,
 				2DEEDA383DA2919B702707926D61439C /* Support Files */,
 			);
+			name = "UINavigation-SXFixSpace";
 			path = "UINavigation-SXFixSpace";
 			sourceTree = "<group>";
 		};
@@ -519,6 +521,7 @@
 				7AC3DC1915C307554A51B5BF7F95E987 /* Route */,
 				FDEFCB2ACCA3635AD7FDCC525B8996D9 /* Support Files */,
 			);
+			name = QYUtilCore;
 			path = QYUtilCore;
 			sourceTree = "<group>";
 		};
@@ -568,6 +571,7 @@
 				2C3AACB1EE462663DF9CAD418AF0BB82 /* URLPathComponent.swift */,
 				2FA595149DC8C5584335CD113CB08A98 /* Support Files */,
 			);
+			name = URLNavigator;
 			path = URLNavigator;
 			sourceTree = "<group>";
 		};
@@ -1419,7 +1423,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
