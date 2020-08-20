@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QYHomeModule_Example' do
+  pod 'QYHomeModule', :path => '../'
+
+  target 'QYHomeModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
