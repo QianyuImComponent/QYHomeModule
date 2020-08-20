@@ -1,0 +1,16 @@
+PODS:
+  - QYHomeModule (0.0.1)
+
+DEPENDENCIES:
+  - QYHomeModule (from `../`)
+
+EXTERNAL SOURCES:
+  QYHomeModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QYHomeModule: 1bac5c541603c84e9d9208081fa2ebd2acbc2360
+
+PODFILE CHECKSUM: 1d8113d273f8a1e6780efeeb3065095767ed4de6
+
+COCOAPODS: 1.8.4

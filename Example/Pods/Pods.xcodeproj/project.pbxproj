@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047D317EA97A8F61D94215747EEBA033 /* QYHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106C0261459EA6DB444454CCBC3F9E40 /* QYHomeController.swift */; };
+		0F4385B928EDCFE98D01101AB8955A36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		13EC8180C36C97A018A4B4B82455FA75 /* Pods-QYHomeModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2882A97CB5567D07FF68650BB3C324DF /* Pods-QYHomeModule_Example-dummy.m */; };
+		66E1B9D5AB407A33EAFE89B837A55F3A /* QYHomeModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05C07842543F9527BEC08BC96D5445F1 /* QYHomeModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0341F0D6F71C07AE3C6F28B51389E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B414AB798EEDD5C4581CD761BEEC27AC /* QYHomeModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89039F8D1EBB8D8492E35805B53D3110 /* QYHomeModule-dummy.m */; };
+		B4B2261F9FDDF7C9B3F919FFB25B7077 /* Pods-QYHomeModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F63B636A53D7EEC4ED43D77ADE3E5DBF /* Pods-QYHomeModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7042671CF22C8BF42D7340CD85B4AD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05A958649314F08574DAD21EEE0CAB92;
+			remoteInfo = QYHomeModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05C07842543F9527BEC08BC96D5445F1 /* QYHomeModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QYHomeModule-umbrella.h"; sourceTree = "<group>"; };
+		106C0261459EA6DB444454CCBC3F9E40 /* QYHomeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QYHomeController.swift; path = QYHomeModule/Classes/C/QYHomeController.swift; sourceTree = "<group>"; };
+		27F3388CD57A513DE81AA36B718D482E /* QYHomeModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QYHomeModule.xcconfig; sourceTree = "<group>"; };
+		2882A97CB5567D07FF68650BB3C324DF /* Pods-QYHomeModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QYHomeModule_Example-dummy.m"; sourceTree = "<group>"; };
+		2F629CF525CBEF28C36BCE3BF2C4D51C /* Pods-QYHomeModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QYHomeModule_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E5F837644FF2A97625033D076E4D71A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		43DED60CD804B8BB2C9EDE06618812DD /* Pods-QYHomeModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QYHomeModule_Example.modulemap"; sourceTree = "<group>"; };
+		43DF3F0F130FC9A61882545AE4C6CC34 /* QYHomeModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QYHomeModule-prefix.pch"; sourceTree = "<group>"; };
+		47438C215CD795A00F158670C3A5A314 /* QYHomeModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QYHomeModule.modulemap; sourceTree = "<group>"; };
+		517AA7388076DAD253C4C29D63A423F4 /* QYHomeModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QYHomeModule.framework; path = QYHomeModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B142280BFDDC807BA35473D526D10A5 /* Pods_QYHomeModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QYHomeModule_Example.framework; path = "Pods-QYHomeModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81F4AF999B871A82522DD6DB3E94BE2E /* Pods-QYHomeModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QYHomeModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		82E46264BDC057136F7AA03B55FB25CF /* Pods-QYHomeModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QYHomeModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		89039F8D1EBB8D8492E35805B53D3110 /* QYHomeModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QYHomeModule-dummy.m"; sourceTree = "<group>"; };
+		8C2A29136D298CAD1AFD811068158BB7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		950D6C93E60CF1201867BE12D06C75C8 /* QYHomeModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QYHomeModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3810B5DDCD7F620F63FF9591EC96C6F /* Pods-QYHomeModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QYHomeModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CF2905BF3EE2E2307F4DE57E1693E4BB /* Pods-QYHomeModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QYHomeModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D3DCE1F8E47D774F703AC477A95992A3 /* Pods-QYHomeModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QYHomeModule_Example-Info.plist"; sourceTree = "<group>"; };
+		F63B636A53D7EEC4ED43D77ADE3E5DBF /* Pods-QYHomeModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QYHomeModule_Example-umbrella.h"; sourceTree = "<group>"; };
+		F79A2D5B7585ED9745C7632CE31DD078 /* QYHomeModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QYHomeModule-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F47B72CE9729615B1B93271519A3191 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F4385B928EDCFE98D01101AB8955A36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884EFA3C287115FC5710D37A0FC4B3BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0341F0D6F71C07AE3C6F28B51389E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EB0DAB9056D1FD2186D9665574EB20D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A13B019E6ECA9BD95AF43FBC04BE8772 /* Pods-QYHomeModule_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		68E1862344148C52274206342D77C3C6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				831DB54F4264EECEF8BB78D54A312328 /* QYHomeModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		831DB54F4264EECEF8BB78D54A312328 /* QYHomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				106C0261459EA6DB444454CCBC3F9E40 /* QYHomeController.swift */,
+				FD07F2534DDC82D9209925C46A8B1A81 /* Pod */,
+				D77205C8F9E17632668AD73FDF949130 /* Support Files */,
+			);
+			name = QYHomeModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A13B019E6ECA9BD95AF43FBC04BE8772 /* Pods-QYHomeModule_Example */ = {
+			isa = PBXGroup;
+			children = (
+				43DED60CD804B8BB2C9EDE06618812DD /* Pods-QYHomeModule_Example.modulemap */,
+				81F4AF999B871A82522DD6DB3E94BE2E /* Pods-QYHomeModule_Example-acknowledgements.markdown */,
+				B3810B5DDCD7F620F63FF9591EC96C6F /* Pods-QYHomeModule_Example-acknowledgements.plist */,
+				2882A97CB5567D07FF68650BB3C324DF /* Pods-QYHomeModule_Example-dummy.m */,
+				2F629CF525CBEF28C36BCE3BF2C4D51C /* Pods-QYHomeModule_Example-frameworks.sh */,
+				D3DCE1F8E47D774F703AC477A95992A3 /* Pods-QYHomeModule_Example-Info.plist */,
+				F63B636A53D7EEC4ED43D77ADE3E5DBF /* Pods-QYHomeModule_Example-umbrella.h */,
+				CF2905BF3EE2E2307F4DE57E1693E4BB /* Pods-QYHomeModule_Example.debug.xcconfig */,
+				82E46264BDC057136F7AA03B55FB25CF /* Pods-QYHomeModule_Example.release.xcconfig */,
+			);
+			name = "Pods-QYHomeModule_Example";
+			path = "Target Support Files/Pods-QYHomeModule_Example";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CC083FC2E1D0C0D46C7C218C1DD1E6B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B142280BFDDC807BA35473D526D10A5 /* Pods_QYHomeModule_Example.framework */,
+				517AA7388076DAD253C4C29D63A423F4 /* QYHomeModule.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				68E1862344148C52274206342D77C3C6 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CC083FC2E1D0C0D46C7C218C1DD1E6B2 /* Products */,
+				1EB0DAB9056D1FD2186D9665574EB20D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D77205C8F9E17632668AD73FDF949130 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47438C215CD795A00F158670C3A5A314 /* QYHomeModule.modulemap */,
+				27F3388CD57A513DE81AA36B718D482E /* QYHomeModule.xcconfig */,
+				89039F8D1EBB8D8492E35805B53D3110 /* QYHomeModule-dummy.m */,
+				F79A2D5B7585ED9745C7632CE31DD078 /* QYHomeModule-Info.plist */,
+				43DF3F0F130FC9A61882545AE4C6CC34 /* QYHomeModule-prefix.pch */,
+				05C07842543F9527BEC08BC96D5445F1 /* QYHomeModule-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QYHomeModule";
+			sourceTree = "<group>";
+		};
+		FD07F2534DDC82D9209925C46A8B1A81 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8C2A29136D298CAD1AFD811068158BB7 /* LICENSE */,
+				950D6C93E60CF1201867BE12D06C75C8 /* QYHomeModule.podspec */,
+				3E5F837644FF2A97625033D076E4D71A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F354F30B1FABF17263D40A4EB5B2DE8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B2261F9FDDF7C9B3F919FFB25B7077 /* Pods-QYHomeModule_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67963BB0F591DA68FF13816458BE8F16 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E1B9D5AB407A33EAFE89B837A55F3A /* QYHomeModule-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05A958649314F08574DAD21EEE0CAB92 /* QYHomeModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56D95F838736E54215F4A539C44DE19C /* Build configuration list for PBXNativeTarget "QYHomeModule" */;
+			buildPhases = (
+				67963BB0F591DA68FF13816458BE8F16 /* Headers */,
+				A9925BA3AA749A585AD063C962ADAD5D /* Sources */,
+				1F47B72CE9729615B1B93271519A3191 /* Frameworks */,
+				B7BE37F6F263BCAF8087E34F403E998F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QYHomeModule;
+			productName = QYHomeModule;
+			productReference = 517AA7388076DAD253C4C29D63A423F4 /* QYHomeModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		920C06F59D15E6EDDE1BD5208D4473D1 /* Pods-QYHomeModule_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416E6272ED244856A9EE8144B3000102 /* Build configuration list for PBXNativeTarget "Pods-QYHomeModule_Example" */;
+			buildPhases = (
+				0F354F30B1FABF17263D40A4EB5B2DE8 /* Headers */,
+				C0D085AE8B734B091659EC6711C45A89 /* Sources */,
+				884EFA3C287115FC5710D37A0FC4B3BD /* Frameworks */,
+				DAA7A5AD0C839E6C66879AC6F62204EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3D3732E912C497CA9F57262C7BB8C4C /* PBXTargetDependency */,
+			);
+			name = "Pods-QYHomeModule_Example";
+			productName = "Pods-QYHomeModule_Example";
+			productReference = 5B142280BFDDC807BA35473D526D10A5 /* Pods_QYHomeModule_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CC083FC2E1D0C0D46C7C218C1DD1E6B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				920C06F59D15E6EDDE1BD5208D4473D1 /* Pods-QYHomeModule_Example */,
+				05A958649314F08574DAD21EEE0CAB92 /* QYHomeModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7BE37F6F263BCAF8087E34F403E998F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA7A5AD0C839E6C66879AC6F62204EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9925BA3AA749A585AD063C962ADAD5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047D317EA97A8F61D94215747EEBA033 /* QYHomeController.swift in Sources */,
+				B414AB798EEDD5C4581CD761BEEC27AC /* QYHomeModule-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D085AE8B734B091659EC6711C45A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13EC8180C36C97A018A4B4B82455FA75 /* Pods-QYHomeModule_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3D3732E912C497CA9F57262C7BB8C4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QYHomeModule;
+			target = 05A958649314F08574DAD21EEE0CAB92 /* QYHomeModule */;
+			targetProxy = B7042671CF22C8BF42D7340CD85B4AD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		435D9CB09E958A416961D564F843AF1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF2905BF3EE2E2307F4DE57E1693E4BB /* Pods-QYHomeModule_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QYHomeModule_Example/Pods-QYHomeModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QYHomeModule_Example/Pods-QYHomeModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6812C8746A122EB0D8DEF4F3EAE70314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F3388CD57A513DE81AA36B718D482E /* QYHomeModule.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QYHomeModule/QYHomeModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QYHomeModule/QYHomeModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QYHomeModule/QYHomeModule.modulemap";
+				PRODUCT_MODULE_NAME = QYHomeModule;
+				PRODUCT_NAME = QYHomeModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		699ED653FCED8C9351428EF57C50E0C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82E46264BDC057136F7AA03B55FB25CF /* Pods-QYHomeModule_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QYHomeModule_Example/Pods-QYHomeModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QYHomeModule_Example/Pods-QYHomeModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A4CB130C1DEFD4BD8811DD0F752784F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F3388CD57A513DE81AA36B718D482E /* QYHomeModule.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QYHomeModule/QYHomeModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QYHomeModule/QYHomeModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QYHomeModule/QYHomeModule.modulemap";
+				PRODUCT_MODULE_NAME = QYHomeModule;
+				PRODUCT_NAME = QYHomeModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		416E6272ED244856A9EE8144B3000102 /* Build configuration list for PBXNativeTarget "Pods-QYHomeModule_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435D9CB09E958A416961D564F843AF1F /* Debug */,
+				699ED653FCED8C9351428EF57C50E0C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56D95F838736E54215F4A539C44DE19C /* Build configuration list for PBXNativeTarget "QYHomeModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4CB130C1DEFD4BD8811DD0F752784F4 /* Debug */,
+				6812C8746A122EB0D8DEF4F3EAE70314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

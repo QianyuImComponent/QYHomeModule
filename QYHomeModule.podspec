@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint QYHomeModule.podspec' to ensure this is a
+# Be sure to run `pod lib lint QYUtilCore.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -8,35 +8,31 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QYHomeModule'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of QYHomeModule.'
+  s.version          = '0.0.1'
+  s.summary          = '项目首页模块'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 项目首页，单独模块.
                        DESC
 
-  s.homepage         = 'https://github.com/lipengyuan/QYHomeModule'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/QianyuImComponent/QYHomeModule'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'lipengyuan' => '1040583846@qq.com' }
-  s.source           = { :git => 'https://github.com/lipengyuan/QYHomeModule.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'QYHomeModule/Classes/**/*'
+  s.author           = { 'qianyuIm' => '1040583846@qq.com' }
   
-  # s.resource_bundles = {
-  #   'QYHomeModule' => ['QYHomeModule/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.platform = :ios
+  s.ios.deployment_target = '10.0'
+  s.swift_version = '5.0'
+  s.source           = { :git => 'https://github.com/QianyuImComponent/QYHomeModule.git', :tag => s.version.to_s }
+  s.source_files  = 'QYHomeModule/Classes/**/*'
+#  s.dependency 'QYUtilCore', :source => 'https://github.com/QianyuImComponent/QYUtilCore.git'
+  
+#  s.subspec 'Base' do |sp|
+#    sp.source_files  = 'QYHomeModule/Classes/Base/*/*'
+#    sp.dependency 'HBDNavigationBar','~> 1.7.7'
+#    sp.dependency 'UINavigation-SXFixSpace', '~> 1.2.4'
+#    sp.dependency 'QYUtilCore/Dependent'
+#  end
+#  
 end
+
