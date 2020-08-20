@@ -1,5 +1,4 @@
 import XCTest
-import QYHomeModule
 
 class Tests: XCTestCase {
     

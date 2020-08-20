@@ -20,5 +20,10 @@
     "tag": "0.0.1"
   },
   "source_files": "QYHomeModule/Classes/**/*",
+  "dependencies": {
+    "QYUtilCore": [
+
+    ]
+  },
   "swift_version": "5.0"
 }

@@ -25,14 +25,8 @@ TODO: 项目首页，单独模块.
   s.swift_version = '5.0'
   s.source           = { :git => 'https://github.com/QianyuImComponent/QYHomeModule.git', :tag => s.version.to_s }
   s.source_files  = 'QYHomeModule/Classes/**/*'
-#  s.dependency 'QYUtilCore', :source => 'https://github.com/QianyuImComponent/QYUtilCore.git'
+  s.dependency 'QYUtilCore'
   
-#  s.subspec 'Base' do |sp|
-#    sp.source_files  = 'QYHomeModule/Classes/Base/*/*'
-#    sp.dependency 'HBDNavigationBar','~> 1.7.7'
-#    sp.dependency 'UINavigation-SXFixSpace', '~> 1.2.4'
-#    sp.dependency 'QYUtilCore/Dependent'
-#  end
-#  
+  
 end
 

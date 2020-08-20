@@ -161,10 +161,18 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/HBDNavigationBar/HBDNavigationBar.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/QYHomeModule/QYHomeModule.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/QYUtilCore/QYUtilCore.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/UINavigation-SXFixSpace/UINavigation_SXFixSpace.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/URLNavigator/URLNavigator.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/HBDNavigationBar/HBDNavigationBar.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/QYHomeModule/QYHomeModule.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/QYUtilCore/QYUtilCore.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/UINavigation-SXFixSpace/UINavigation_SXFixSpace.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/URLNavigator/URLNavigator.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
