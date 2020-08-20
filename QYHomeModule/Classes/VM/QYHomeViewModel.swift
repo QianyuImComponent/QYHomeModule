@@ -8,7 +8,7 @@
 import UIKit
 import QYUtilCore
 
-open class QYHomeViewModel: NSObject {
+open class QYHomeViewModel: QYViewModel {
 
 }
 

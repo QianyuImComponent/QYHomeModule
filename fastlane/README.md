@@ -15,11 +15,11 @@ Install _fastlane_ using
 or alternatively using `brew cask install fastlane`
 
 # Available Actions
-### podtool
+### PodTool
 ```
-fastlane podtool
+fastlane PodTool
 ```
-podtool 航道用来自动化升级维护私有库
+PodTool 自动化升级维护私有库
 
 ----
 
